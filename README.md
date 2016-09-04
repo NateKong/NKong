@@ -1,3 +1,3 @@
-# H1 My webpage
+# My webpage
 
 This is a static webpage for my resume
