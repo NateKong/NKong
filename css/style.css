@@ -10,3 +10,11 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+ul.experience {
+	list-style-type: square;
+}
+
+ul.normal {
+	list-style-type: none;
+}
