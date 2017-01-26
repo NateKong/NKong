@@ -18,3 +18,7 @@ ul.experience {
 ul.normal {
 	list-style-type: none;
 }
+
+.link:hover { 
+    background-color: #BA55D3;
+}
