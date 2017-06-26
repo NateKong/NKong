@@ -1,0 +1,72 @@
+[
+{
+	"href": "http://epicpass.servebeer.com",
+	"materialIcon": "storage",
+	"title": "Snowboard Sign Up Sheet",
+	"description": "A simple sign up sheet for a group of users with no admin. This is ran using 2 docker containers for apache and mysql. Both the mysql data and the webpage code are ran in different volumes.",
+	"other": "Docker, apache, html, css, javascript, jquery, php, ajax, mysql"
+},
+{
+	"href": "papers/distributed_SDN_failover.pdf",
+	"materialIcon": "device_hub",
+	"title": "Failover Mechanism for Distributed SDN Controllers<br>(Master Project)",
+	"description": "Failure detection and recover for SDN controllers in a distributed architecture.",
+	"other": "Java"
+},
+{
+	"href": "none",
+	"materialIcon": "developer_board",
+	"title": "Aeris-SJSU IoT: Simple Bottle",
+	"description": "Smart pill bottle to help with prescription drug abuse. Used Tessel 1 board to simulate pill bottle. Bottle sends information to the cloud. Website for doctor to view logs of pill use.",
+	"other": "Tessel 1, node.js, html, css, javascript, AerCloud (Aeris)"
+},
+{
+	"href": "papers/QoS_Containers.pdf",
+	"materialIcon": "line_weight",
+	"title": "Quality of Service for Containers in Cloud Computing",
+	"description": "Simulated Containers in Cloud Computing. Created QoS priorities for each container. Dynamically adjusted bandwidth for containers.",
+	"other": "Java, CloudSim, GitHub, Slack"
+},
+{
+	"href": "papers/SDN_LTE.pdf",
+	"materialIcon": "network_check",
+	"title": "SDN for LTE",
+	"description": "Simulated a 5G LTE architecture with a Software Defined Network. Created UEs, eNodeBs, and an EPC. Demonstrated dynamic QoS provisioning using SDN controllers for eNodeBs.",
+	"other": "Java, SimULTE, OMNet++, GitHub, Slack"
+},
+{
+	"href": "none",
+	"materialIcon": "router",
+	"title": "Software Defined Wireless Sensor Network",
+	"description": "Simulated a Software defined wireless sensor network for a healthcare network.",
+	"other": "NS-3, mininet"
+},
+{
+	"href": "none",
+	"materialIcon": "format_size",
+	"title": "Frequent Itemsets",
+	"description": "Simulated a frequent itemset algorithm in a sliding window for infinite data",
+	"other": "Spark"
+},
+{
+	"href": "none",
+	"materialIcon": "devices_other",
+	"title": "Project Tracking Software",
+	"description": "A SaaS for project tracking of line items and associated materials.",
+	"other": "HTML, CSS, Javascript"
+},
+{
+	"href": "none",
+	"materialIcon": "android",
+	"title": "IntTips",
+	"description": "A simple tip calculator built for Android. It rounds the integer values for any percentage tip. The default is 15% and 18%.",
+	"other": "Android, Java"
+},
+{
+	"href": "none",
+	"materialIcon": "call",
+	"title": "P2P chat",
+	"description": "A Peer-to-Peer chat application. The chat sends information to a STUN server through UDP. The STUN server connects peers through TCP.",
+	"other": "Java"
+}
+]
