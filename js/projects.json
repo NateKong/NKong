@@ -1,6 +1,6 @@
 [
 {
-	"href": "http://epicpass.servebeer.com",
+	"href": "http://natekong.ddns.net",
 	"materialIcon": "storage",
 	"title": "Snowboard Sign Up Sheet",
 	"description": "A simple sign up sheet for a group of users with no admin. This is ran using 2 docker containers for apache and mysql. Both the mysql data and the webpage code are ran in different volumes.",
