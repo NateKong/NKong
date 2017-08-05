@@ -1,8 +1,15 @@
 [
 {
+	"href": "http://natekong.ddns.net/tomcat/Tri-Valley-Parks/",
+	"materialIcon": "local_florist",
+	"title": "Group Picnic Areas",
+	"description": "A list of group picnic areas in the Tri-Valley. These areas are for reservation",
+	"other": "Tomcat, apache, html, css, javascript, jquery, jsp, servlet, ajax, mysql"
+},
+{
 	"href": "http://natekong.ddns.net/snowboard/",
-	"materialIcon": "storage",
-	"title": "Snowboard Sign Up Sheet",
+	"materialIcon": "people",
+	"title": "Sign Up Sheet",
 	"description": "A simple sign up sheet for a group of users with no admin. This is ran using 2 docker containers for apache and mysql. Both the mysql data and the webpage code are ran in different volumes.",
 	"other": "Docker, apache, html, css, javascript, jquery, php, ajax, mysql"
 },
