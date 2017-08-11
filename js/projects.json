@@ -28,6 +28,13 @@
 	"other": "Tessel 1, node.js, html, css, javascript, AerCloud (Aeris)"
 },
 {
+	"href": "http://natekong.ddns.net/node/intTip/",
+	"materialIcon": "restaurant",
+	"title": "IntTips",
+	"description": "A simple tip calculator built for Android. It rounds the integer values for any percentage tip. The default is 15% and 18%.",
+	"other": "express, node, html, css, javascript, jquery"
+},
+{
 	"href": "papers/QoS_Containers.pdf",
 	"materialIcon": "line_weight",
 	"title": "Quality of Service for Containers in Cloud Computing",
@@ -61,13 +68,6 @@
 	"title": "Project Tracking Software",
 	"description": "A SaaS for project tracking of line items and associated materials.",
 	"other": "HTML, CSS, Javascript"
-},
-{
-	"href": "none",
-	"materialIcon": "android",
-	"title": "IntTips",
-	"description": "A simple tip calculator built for Android. It rounds the integer values for any percentage tip. The default is 15% and 18%.",
-	"other": "Android, Java"
 },
 {
 	"href": "none",
