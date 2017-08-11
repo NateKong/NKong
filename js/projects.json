@@ -31,7 +31,7 @@
 	"href": "http://natekong.ddns.net/node/intTip/",
 	"materialIcon": "restaurant",
 	"title": "IntTips",
-	"description": "A simple tip calculator built for Android. It rounds the integer values for any percentage tip. The default is 15% and 18%.",
+	"description": "A simple tip calculator that ceiling rounds to the next integer value.",
 	"other": "express, node, html, css, javascript, jquery"
 },
 {
