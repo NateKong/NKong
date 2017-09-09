@@ -1,5 +1,12 @@
 [
 {
+	"href": "http://natekong.ddns.net/node/exchange/",
+	"materialIcon": "attach_money",
+	"title": "Currency Exchange",
+	"description": "A currency exchange rate calculator. It pulls up to the second exchange conversions from Google Finance.",
+	"other": "express, node, html, css, sass, javascript, jquery, gulp, minification, browsersync, typescript"
+},
+{
 	"href": "http://natekong.ddns.net/tomcat/Tri-Valley-Parks/",
 	"materialIcon": "local_florist",
 	"title": "Group Picnic Areas",
