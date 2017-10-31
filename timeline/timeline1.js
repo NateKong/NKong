@@ -20,8 +20,8 @@ function drawChart() {
 
 		'Project Engineer':'<h4>Chicago Bridge &amp Iron</h4><h4>Project Engineer and Coordinator</h4><p>Customer Success</p><p>On-Site project management</p><p>System design, commissioning, troubleshooting, and operations of treatment systems</p><p>Testing and troubleshooting of logic controllers and control systems</p>',
 
-		'Chlorinated':'<h4>Battelle Chlorinated Conference</h4><p>Electrical Resistance Heating</p>',
-		'Bioremediation':'<h4>Battelle Bioremediation Symposium</h4><p>Cogeneration of Landfill gas</p>',
+		'Chlorinated2':'<h4>Battelle Chlorinated Conference</h4><p>Cogeneration of Landfill gas</p>',
+		'Chlorinated1':'<h4>Battelle Chlorinated Conference</h4><p>Electrical Resistance Heating</p>',
 	}
 
 	var data = new google.visualization.DataTable();
@@ -38,8 +38,8 @@ function drawChart() {
 
 		['Experience', 'Project Engineer', description['Project Engineer'], new Date(2006, 5, 1), new Date(2015, 8, 1)],
 
-		['Additional Info', 'Chlorinated Conference', description['Chlorinated'], new Date(2008, 7, 26), new Date(2008, 7, 28)],//FIX DATE
-		['Additional Info', 'Bioremediation Symposium', description['Bioremediation'], new Date(2011, 11, 8), new Date(2011, 11, 9)],//FIX DATE
+		['Additional Info', 'Chlorinated Conference', description['Chlorinated2'], new Date(2010, 5, 24), new Date(2010, 5, 27)],
+		['Additional Info', 'Chlorinated Conference', description['Chlorinated1'], new Date(2008, 5, 19), new Date(2008, 5, 22)],
 	]);
 
 	var container = document.getElementById('timeline1');
