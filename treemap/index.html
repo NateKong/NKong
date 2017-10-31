@@ -13,21 +13,26 @@
         margin: 0;
       }
     </style>
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="treemap.js"></script>
+
+  </head>
+  <body>
+    <div id="treemap"></div>
+    
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
       crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript" src="treemap.js"></script>
     <script type="text/javascript">
-      
-    </script>
-  </head>
-  <body>
-    <div id="treemap"></div>
-    <script>
-
+      $(document).ready(function(){
+        alert('Click the Elements to learn more about me\n'
+          + 'Hover to learn about the details\n'
+          + 'Right click to traverse back'
+          );
+      });
     </script>
   </body>
 </html>
