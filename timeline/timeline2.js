@@ -5,11 +5,12 @@ function drawChart() {
 	var description = {
 		'Masters':'<h4>M.S. Computer Science</h4><p>San Jose State University</p><p>GPA 3.5</p>',
 
+		'Insight':'<h4>Insight Global</h4><h4>GPOM Validation Engineer</h4><p>Compliance of Gas Pipeline Operations and Maintenance</p>',
 		'Assistant':'<h4>Topics in Wireless Mobile Networking</h4><h4>Teacher\'s Assistant</h4><h4>San Jose State University</h4><p>Docker, Nutanix Cloud, Slack, VirtualBox, Mininet, OpenDayLight, NS3</p>',
 		'Intern':'<h4>Findlaw</h4><h4>Software Intern</h4><p>Project coordinating</p><p>Migration of web content to Adobe CQ 5.6.1</p><p>Development of web page and components</p><p>Redirection of Legacy Domains</p>',
 		'Engineer':'<h4>Chicago Bridge &amp Iron</h4><h4>Project Engineer and Coordinator</h4><p>Customer Success</p><p>On-Site project management</p><p>System design, commissioning, troubleshooting, and operations of treatment systems</p><p>Testing and troubleshooting of logic controllers and control systems</p>',
 
-		'ChemConvert':'<h4>ChemConvert (In Progress)</h4><p>A conversion tool for chemical compounds<p/><p>React, ESlint, Webpack, Sass</p>',
+		'ChemConvert':'<h4>ChemConvert</h4><p>A conversion tool for chemical compounds<p/><p>React, ESlint, Webpack, Sass</p>',
 		'IntTips':'<h4>IntTips</h4><p>A simple tip calculator that ceiling rounds to the next integer value<p/><p>express, node, html, css, javascript, jquery</p>',
 		'Currency':'<h4>Currency Exchange</h4><p>A currency exchange rate calculator<p/><p>express, node, html, css, sass, javascript, jquery, gulp, minification, browsersync, typescript</p>',
 		'Park':'<h4>Park Information</h4><p>A list of group picnic areas in the Tri-Valley<p/><p>Tomcat, apache, html, css, javascript, jquery, jsp, servlet, ajax, mysql</p>',
@@ -24,6 +25,7 @@ function drawChart() {
 		'treemap':'<h4>TreeMap</h4><p>TreeMap of my Resume</p>',
 	}
 
+	var today = new Date();
 	var data = new google.visualization.DataTable();
 		
 	data.addColumn({ type: 'string', id: 'Position' });
@@ -35,11 +37,12 @@ function drawChart() {
 	data.addRows([
 		['Education','Master\'s Degree', description['Masters'], new Date(2014, 1, 1), new Date(2017, 5, 1)],
 
+		['Experience', 'Validation Engineer', description['Insight'], new Date(2017, 11, 1), new Date(today.getFullYear(), today.getMonth()+1, today.getDate())],
 		['Experience', 'Teaching Assistant', description['Assistant'], new Date(2017, 1, 1), new Date(2017, 5, 1)],
 		['Experience', 'Software Intern', description['Intern'], new Date(2015, 8, 1), new Date(2016, 8, 4)],
 		['Experience', 'Project Engineer', description['Engineer'], new Date(2014, 1, 1), new Date(2015, 8, 1)],
 
-		['Additional Info', 'ChemConvert', description['ChemConvert'], new Date(2017, 10, 1), new Date(2017, 10, 30)],
+		['Additional Info', 'ChemConvert', description['ChemConvert'], new Date(2017, 10, 1), new Date(2017, 11, 18)],
 		['Additional Info', 'IntTips', description['IntTips'], new Date(2017, 8, 1), new Date(2017, 8, 30)],
 		['Additional Info', 'Currency Exchange', description['Currency'], new Date(2017, 9, 1), new Date(2017, 9, 30)],
 		['Additional Info', 'Park Information', description['Park'], new Date(2017, 7, 1), new Date(2017, 7, 30)],
