@@ -1,5 +1,26 @@
 [
 {
+	"href": "http://natekong.ddns.net/node/chemConvert/",
+	"materialIcon": "flip",
+	"title": "Chemical Conversion",
+	"description": "A chemical conversion tool that units measurement to a mass measurement",
+	"other": "React, webpack, babel, ESlint, sass"
+},
+{
+	"href": "http://natekong.ddns.net/node/intTip/",
+	"materialIcon": "restaurant",
+	"title": "IntTips",
+	"description": "A simple tip calculator that ceiling rounds to the next integer value.",
+	"other": "express, node, html, css, javascript, jquery"
+},
+{
+	"href": "none",
+	"materialIcon": "developer_board",
+	"title": "Aeris-SJSU IoT: Simple Bottle",
+	"description": "Smart pill bottle to help with prescription drug abuse. Used Tessel 1 board to simulate pill bottle. Bottle sends information to the cloud. Website for doctor to view logs of pill use.",
+	"other": "Tessel 1, node.js, html, css, javascript, AerCloud (Aeris)"
+},
+{
 	"href": "http://natekong.ddns.net/node/exchange/",
 	"materialIcon": "attach_money",
 	"title": "Currency Exchange",
@@ -26,20 +47,6 @@
 	"title": "Failover Mechanism for Distributed SDN Controllers<br>(Master Project)",
 	"description": "Failure detection and recover for SDN controllers in a distributed architecture.",
 	"other": "Java"
-},
-{
-	"href": "none",
-	"materialIcon": "developer_board",
-	"title": "Aeris-SJSU IoT: Simple Bottle",
-	"description": "Smart pill bottle to help with prescription drug abuse. Used Tessel 1 board to simulate pill bottle. Bottle sends information to the cloud. Website for doctor to view logs of pill use.",
-	"other": "Tessel 1, node.js, html, css, javascript, AerCloud (Aeris)"
-},
-{
-	"href": "http://natekong.ddns.net/node/intTip/",
-	"materialIcon": "restaurant",
-	"title": "IntTips",
-	"description": "A simple tip calculator that ceiling rounds to the next integer value.",
-	"other": "express, node, html, css, javascript, jquery"
 },
 {
 	"href": "papers/QoS_Containers.pdf",
