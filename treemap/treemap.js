@@ -57,7 +57,7 @@ function drawChart() {
 			['Bachelors','Education',4,4],
 			['Minor','Education',1,8],
 
-			['Validation Engineer','Experience',4,6],
+			['Validation Engineering Supervisor','Experience',4,6],
 			['Teaching Assistant','Experience',2,4],
 			['Software Intern','Experience',7,0],
 			['Project Engineer','Experience',5,2],
