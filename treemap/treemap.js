@@ -20,7 +20,7 @@ var description = {
 	'Bachelors':'<p>B.S. Mechanical Engineer</p><p>San Jose State University</p>',
 	'Minor':'Business',
 
-	'Validation Engineer':'<p>Compliance of Gas Pipeline Operations and Maintenance</p></p>',
+	'Validation Engineering Supervisor':'<p>Compliance of Gas Pipeline Operations and Maintenance</p></p>',
 	'Teaching Assistant':'<p>Topics in Wireless Mobile Networking</p><p>San Jose State University</p>',
 	'Software Intern':'<p>Findlaw</p><p>Project coordinating</p><p>Migration of web content to Adobe CQ 5.6.1</p><p>Development of web page and components</p><p>Redirection of Legacy Domains</p>',
 	'Project Engineer':'<p>Project coordination</p><p>Customer Success</p><p>On-Site project management</p><p>System design, commissioning, troubleshooting, and operations of treatment systems</p><p>Testing and troubleshooting of logic controllers and control systems</p>',

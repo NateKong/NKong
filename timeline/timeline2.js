@@ -5,7 +5,7 @@ function drawChart() {
 	var description = {
 		'Masters':'<h4>M.S. Computer Science</h4><p>San Jose State University</p><p>GPA 3.5</p>',
 
-		'Insight':'<h4>Insight Global</h4><h4>GPOM Validation Engineer</h4><p>Compliance of Gas Pipeline Operations and Maintenance</p>',
+		'Insight':'<h4>Insight Global</h4><h4>GPOM Validation Engineering Supervisor</h4><p>Compliance of Gas Pipeline Operations and Maintenance</p>',
 		'Assistant':'<h4>Topics in Wireless Mobile Networking</h4><h4>Teacher\'s Assistant</h4><h4>San Jose State University</h4><p>Docker, Nutanix Cloud, Slack, VirtualBox, Mininet, OpenDayLight, NS3</p>',
 		'Intern':'<h4>Findlaw</h4><h4>Software Intern</h4><p>Project coordinating</p><p>Migration of web content to Adobe CQ 5.6.1</p><p>Development of web page and components</p><p>Redirection of Legacy Domains</p>',
 		'Engineer':'<h4>Chicago Bridge &amp Iron</h4><h4>Project Engineer and Coordinator</h4><p>Customer Success</p><p>On-Site project management</p><p>System design, commissioning, troubleshooting, and operations of treatment systems</p><p>Testing and troubleshooting of logic controllers and control systems</p>',
