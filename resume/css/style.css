@@ -22,3 +22,10 @@ ul.normal {
 .link:hover { 
     background-color: #BA55D3;
 }
+
+.title {
+	font-size: 1.25em;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 400;
+}
