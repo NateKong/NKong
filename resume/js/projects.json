@@ -1,13 +1,16 @@
 [
 {
-	"href": "none",//"http://natekong.ddns.net/node/chemConvert/",
+
+	"href": "none",
+	"old_href": "http://natekong.ddns.net/node/chemConvert/",
 	"materialIcon": "flip",
 	"title": "Chemical Conversion",
 	"description": "A chemical conversion tool that units measurement to a mass measurement",
 	"other": "React, webpack, babel, ESlint, sass"
 },
 {
-	"href": "none",//http://natekong.ddns.net/node/intTip/",
+	"href": "none",
+	"old_href": "http://natekong.ddns.net/node/intTip/",
 	"materialIcon": "restaurant",
 	"title": "IntTips",
 	"description": "A simple tip calculator that ceiling rounds to the next integer value.",
@@ -21,21 +24,24 @@
 	"other": "Tessel 1, node.js, html, css, javascript, AerCloud (Aeris)"
 },
 {
-	"href": "none",//http://natekong.ddns.net/node/exchange/",
+	"href": "none",
+	"old_href": "http://natekong.ddns.net/node/exchange/",
 	"materialIcon": "attach_money",
 	"title": "Currency Exchange",
 	"description": "A currency exchange rate calculator. It pulls up to the second exchange conversions from Google Finance.",
 	"other": "express, node, html, css, sass, javascript, jquery, gulp, minification, browsersync, typescript"
 },
 {
-	"href": "none",//"http://natekong.ddns.net/tomcat/Tri-Valley-Parks/",
+	"href": "none",
+	"old_href": "http://natekong.ddns.net/tomcat/Tri-Valley-Parks/",
 	"materialIcon": "local_florist",
 	"title": "Group Picnic Areas",
 	"description": "A list of group picnic areas in the Tri-Valley. These areas are for reservation",
 	"other": "Tomcat, apache, html, css, javascript, jquery, jsp, servlet, ajax, mysql"
 },
 {
-	"href": "none",//"http://natekong.ddns.net/snowboard/",
+	"href": "none",
+	"old_href": "http://natekong.ddns.net/snowboard/",
 	"materialIcon": "people",
 	"title": "Sign Up Sheet",
 	"description": "A simple sign up sheet for a group of users with no admin. This is ran using 2 docker containers for apache and mysql. Both the mysql data and the webpage code are ran in different volumes.",
