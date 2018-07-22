@@ -5,6 +5,7 @@ function drawChart() {
 	var description = {
 		'Masters':'<h4>M.S. Computer Science</h4><p>San Jose State University</p><p>GPA 3.5</p>',
 
+		'AoG':'<h4>Accenture at Google</h4><h4>Global Operations Lead</h4><p><a href="https://developers.google.com/actions/">Actions on Google</a></p>',
 		'Insight':'<h4>Insight Global</h4><h4>GPOM Validation Engineering Supervisor</h4><p>Compliance of Gas Pipeline Operations and Maintenance</p>',
 		'Assistant':'<h4>Topics in Wireless Mobile Networking</h4><h4>Teacher\'s Assistant</h4><h4>San Jose State University</h4><p>Docker, Nutanix Cloud, Slack, VirtualBox, Mininet, OpenDayLight, NS3</p>',
 		'Intern':'<h4>Findlaw</h4><h4>Software Intern</h4><p>Project coordinating</p><p>Migration of web content to Adobe CQ 5.6.1</p><p>Development of web page and components</p><p>Redirection of Legacy Domains</p>',
@@ -37,7 +38,8 @@ function drawChart() {
 	data.addRows([
 		['Education','Master\'s Degree', description['Masters'], new Date(2014, 1, 1), new Date(2017, 5, 1)],
 
-		['Experience', 'Validation Engineer', description['Insight'], new Date(2017, 11, 1), new Date(today.getFullYear(), today.getMonth()+1, today.getDate())],
+		['Experience', 'Global Operations Lead', description['AoG'], new Date(2018, 2, 21), new Date(today.getFullYear(), today.getMonth()+1, today.getDate())],
+		['Experience', 'Validation Engineer', description['Insight'], new Date(2017, 11, 1), new Date(2018, 2, 16],
 		['Experience', 'Teaching Assistant', description['Assistant'], new Date(2017, 1, 1), new Date(2017, 5, 1)],
 		['Experience', 'Software Intern', description['Intern'], new Date(2015, 8, 1), new Date(2016, 8, 4)],
 		['Experience', 'Project Engineer', description['Engineer'], new Date(2014, 1, 1), new Date(2015, 8, 1)],
