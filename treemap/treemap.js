@@ -20,7 +20,8 @@ var description = {
 	'Bachelors':'<p>B.S. Mechanical Engineer</p><p>San Jose State University</p>',
 	'Minor':'Business',
 
-	'Validation Engineering Supervisor':'<p>Compliance of Gas Pipeline Operations and Maintenance</p></p>',
+	'Global Operations Lead':'<p><a href="https://developers.google.com/actions/">Actions on Google</a></p><p>24/7 operations</p><p>4 Global teams - San Jose, Dublin, Tokyo, Manilla</p><p>3 workflows - Technical Support, Policy Review, Quality Review</p>',
+	'Validation Engineering Supervisor':'<p>Compliance of Gas Pipeline Operations and Maintenance</p>',
 	'Teaching Assistant':'<p>Topics in Wireless Mobile Networking</p><p>San Jose State University</p>',
 	'Software Intern':'<p>Findlaw</p><p>Project coordinating</p><p>Migration of web content to Adobe CQ 5.6.1</p><p>Development of web page and components</p><p>Redirection of Legacy Domains</p>',
 	'Project Engineer':'<p>Project coordination</p><p>Customer Success</p><p>On-Site project management</p><p>System design, commissioning, troubleshooting, and operations of treatment systems</p><p>Testing and troubleshooting of logic controllers and control systems</p>',
@@ -57,9 +58,10 @@ function drawChart() {
 			['Bachelors','Education',4,4],
 			['Minor','Education',1,8],
 
-			['Validation Engineering Supervisor','Experience',4,6],
+			['Global Operations Lead','Experience',9,1],
+			['Validation Engineering Supervisor','Experience',7,6],
 			['Teaching Assistant','Experience',2,4],
-			['Software Intern','Experience',7,0],
+			['Software Intern','Experience',3,0],
 			['Project Engineer','Experience',5,2],
 
 			['ChemConvert','Side Projects',1,5],
