@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Nathan Kong</title>
+  
+  <link rel="apple-touch-icon-precomposed" href="images/favicon.ico">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="images/favicon.ico">
+  <link rel="icon" href="images/favicon.ico" sizes="32x32" alt="images/faviconCopy.jpg">
+  <link rel="shortcut icon" sizes="196x196" href="images/favicon.ico">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <style>
+	.topPad{ padding-top: 30px; }
+  </style>
+  
+  
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/projects.js" type="text/javascript"></script>
+  <script>
+	$(document).ready(function(){
+		$('.parallax').parallax();
+    
+    $.getJSON( "js/projects.json", function( data ) {
+      document.getElementById("projects").innerHTML = getProjects(data);
+    }).fail(function(d, textStatus, error) {
+      document.getElementById("projects").innerHTML = "error";
+      console.error("getJSON failed, status: " + textStatus + ", error: "+ error)
+    });
+	});
+  </script>
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><img src="images/nate.jpg" class="circle responsive-img"/>
+      <ul class="right hide-on-med-and-down normal">
+        <li><a href="https://www.linkedin.com/in/nathanwkong/">LinkedIn</a></li>
+        <li><a href="https://www.github.com/natekong/">GitHub</a></li>
+        <li><a href="#">NateWKong@gmail.com</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav orange lighten-2 white-text normal">
+        <li><a href="https://www.linkedin.com/in/nathanwkong/">LinkedIn</a></li>
+        <li><a href="https://www.github.com/natekong/">GitHub</a></li>
+        <li><a href="#">NateWKong@gmail.com</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+    
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot" >
+  	  <div class="container">
+    		<h1 class="header center orange-text">Nathan Kong</h1>
+    		<div class="row center orange-text">
+    		  <h5 class="header col s12 light">Agility and Vision</h5>
+    	  </div>
+	    </div>
+	  </div>
+  	<div class="parallax">
+  		<img src="images/back.jpg" style="display: block; transform: translate3d(-50%, 315px, 0px);">
+  	</div>
+  </div>
+  
+  <div class="container topPad">
+    <div class="section">
+      <h3 class="center">EXPERIENCE</h3>
+      <!--   EXPERIENCE   -->
+      <div class="row">
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">scatter_plot</i></h2>
+            <h5 class="center">Accenture at Google</h5>
+            <p class="title">Global Ops Lead for <a href="https://developers.google.com/actions/">AoG</a></p>
+
+            <p class="light">
+              <ul class="experience" >
+                <li>Lead and provided oversight to 4 global teams in NA, APAC, and EMEA for 3 workflows</li>
+                <li>Championed process improvement projects and systems enhancements</li>
+                <li>Identified key metrics/measures to evaluate performance and impact of program</li>
+                <li>Collaborated across ecosystem by working with cross-functional teams, process strategists, and others similarly minded groups</li>
+              </ul>
+            </p>
+            <p class="light"><a href="https://gsuite.google.com/">G Suite</a></p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">assignment_turned_in</i></h2>
+            <h5 class="center">Insight Global</h5>
+            <p class="title">Engineering Supervisor</p>
+
+            <p class="light">
+              <ul class="experience" >
+                <li>Compliance of Gas Assets for PG&ampE</li>
+                <li>Validation of Assets in SAP</li>
+                <li>Main Point of Contact with PG&ampE AMBBS Data Clean Supervisor</li>
+                <li>Coordination and organization of team schedules</li>
+                <li>Development of reports, project guides, and project charter</li>
+              </ul>
+            </p>
+            <p class="light">MS Project, Visio, Zoom, SAP, ProntoForms</p>
+          </div>
+        </div>
+        
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">desktop_windows</i></h2>
+            <h5 class="center">Computer Science</h5>
+            <p class="title">Masters Degree</p>
+
+            <p class="light">
+              <ul class="experience" >
+                <li>San Jose State University</li>
+                <li>May 2017</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+
+      </div>
+	  
+	    <!-- Experience Row 2-->
+      <div class="row">
+        
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">account_balance</i></h2>
+            <h5 class="center">FindLaw</h5>
+            <p class="title">Internship</p>
+
+            <p class="light">
+              <ul class="experience" >
+                <li>Project coordinating.</li>
+                <li>Migration of web content to Adobe CQ 5.6.1.</li>
+                <li>Development of web page and components.</li>
+                <li>Redirection of Legacy Domains.</li>
+              </ul>
+            </p>
+            <p class="light">JIRA, Perforce, Eclipse, CRXDE, Adobe CQ</p>
+          </div>
+        </div>        
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">terrain</i></h2>
+            <h5 class="center">CB&ampI</h5>
+            <p class="title">Project Engineer</p>
+
+            <p class="light">
+              <ul class="experience" >
+                <li>On-Site project management.</li>
+                <li>System design, commissioning, troubleshooting, and operations of treatment systems.</li>
+                <li>Testing and troubleshooting of logic controllers and control systems.</li>
+                <li>Development of operation manuals.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Mechanical Engineering</h5>
+            <p class="title">Bachelors Degree</p>
+
+            <p class="light">
+              <ul class="experience" >
+                <li>Minor in Business</li>
+                <li>San Jose State University</li>
+                <li>May 2007</li>
+              </ul>
+            </p>
+          </div>
+        </div>        
+      </div>
+	  </div>
+  </div>
+  
+  <!--Projects-->
+  <div class="indigo accent-3 white-text">
+	  <div class="container">	
+  		<div class="section">
+      	<h3 class="center">PROJECTS</h3>
+        <span id='projects'></span>
+      
+  		</div>
+	  </div>
+  </div>
+
+  <footer class="orange topPad">
+    <div class="container">
+      <div class="row" style="margin-bottom: 0px">
+        <div class="col l6 s12">
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Additional Information</h5>
+          <ul class="normal">
+		        <li><a class="white-text" href="http://www.linkedin.com/in/nathanwkong/">Linkedin</a></li>
+            <li><a class="white-text" href="http://www.github.com/natekong/">GitHub</a></li>
+			      <li><a href="https://docs.google.com/document/d/1LsxSQgMbPXfJ3sXfwLSLRWPunjQno0jltnpAWLgMPPI/edit?usp=sharing">Resume</a></li>
+            <li class="white-text">NateWKong@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
